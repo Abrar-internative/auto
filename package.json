@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node addScript.js",
+    "postinstall": "node ./node_modules/aj-auto/addScript.js",
     "banao": "node app.js"
   },
   "keywords": [],
