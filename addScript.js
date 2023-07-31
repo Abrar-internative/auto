@@ -9,7 +9,7 @@ if (!userPackageJson.scripts) {
   userPackageJson.scripts = {};
 }
 
-userPackageJson.scripts["banao"] = "node ./node_modules/aj-auto/app.js";
+userPackageJson.scripts["test"] = "node ./node_modules/aj-auto/app.js";
 
 // Write the modified package.json back to the user's file system
 fs.writeFileSync(userPackageJsonPath, JSON.stringify(userPackageJson, null, 2));
