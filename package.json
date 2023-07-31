@@ -1,10 +1,10 @@
 {
-  "name": "auto",
+  "name": "aj-auto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node addScript.js",
     "banao": "node app.js"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
+    "fs": "^0.0.1-security",
     "pluralize": "^8.0.0"
   }
 }
