@@ -1,9 +1,10 @@
 {
   "name": "aj-auto",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "node ./node_modules/aj-auto/addScript.js",
     "banao": "node app.js"
   },
   "keywords": [],
