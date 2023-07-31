@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-
+console.log("Running script");
 const userPackageJsonPath = path.resolve(process.cwd(), "package.json");
 const userPackageJson = require(userPackageJsonPath);
 
