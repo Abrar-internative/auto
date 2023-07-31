@@ -1,0 +1,7 @@
+const Joi = require("joi");
+
+const <%= entityName %>CreateSchema = Joi.object({
+  name: Joi.string().required(),
+});
+
+module.exports = <%= entityName %>CreateSchema;

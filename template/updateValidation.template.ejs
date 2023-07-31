@@ -1,0 +1,7 @@
+const Joi = require("joi");
+
+const <%= entityName %>UpdateSchema = Joi.object({
+  name: Joi.string().optional(),
+});
+
+module.exports = <%= entityName %>UpdateSchema;
